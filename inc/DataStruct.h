@@ -546,7 +546,7 @@ public:
     }
     void DispBTree() // 将二叉树显示为括号表达式的形式
     {
-        DispBTreeUnit(r); // 从根节点开始递归显示全树
+        DispBTreeUnit(r); // 从根节点开始递归显示全树.
     }
     BTNode<T> *FindNode(T x) // 查找data值为x的节点并返回该节点的地址
     {
